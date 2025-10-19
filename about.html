@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kushal Kumar - Full-Stack Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #1E1E1E;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #007BFF;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #007BFF;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      height: 100%;
+      width: 700px;
+      
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .social-links {
+      margin-top: 30px;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1E1E1E;
+      color: #555;
+      font-size: 14px;
+    }
+    nav {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  nav .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  nav ul li a:hover {
+    background: rgba(255,255,255,0.2);
+  }
+
+  /* Responsive toggle */
+  .menu-btn {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background: #4CAF50;
+    }
+    nav ul li {
+      margin: 10px 0;
+      text-align: center;
+    }
+    .menu-btn {
+      display: block;
+    }
+}
+  </style>
+</head>
+<body>
+   <nav>
+  <div class="logo"><a href="/INDEX.HTML">MyWebsite</a></div>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <ul id="menu">
+    <li><a href="/INDEX.HTML">HOME</a></li>
+    <li><a href="/childhood.html">Childhood</a></li>
+    <li><a href="/school.html">school life</a></li>
+    <li><a href="/collage.html">college life</a></li>
+    <li><a href="/skils.html">skils</a></li>
+    <li><a href="/goals.html">my goals</a></li>
+    <li><a href="/gallery.html">gellery</a></li>
+     <li><a href="/contact.html">Contact</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/login.html">Login</a></li>
+  </ul>
+</nav>
+
+  <header>
+    <div style="height: 20px;"></div>
+    <div class="logo">KK</div>
+    <div class="tagline">Full-Stack Developer</div>
+  </header>
+   <div class="my pic"></div>
+    <img src="image.jpg" alt="my pic" width="200" height="300" style="float: left;"></img>
+  
+</div>
+ <div>
+  <main><ul>
+    <u><h1>About Me</h1></u>
+   <li> <p>Hello! I'm <strong>Kushal Kumar</strong>, a passionate and results-driven <strong>Full-Stack Developer</strong>. I specialize in building modern, scalable, and efficient web applications. I love creating clean code and intuitive user experiences.</p></li>
+
+    <li> <p>From front-end design to back-end logic, I enjoy the full cycle of development and solving real-world problems through technology.</p>
+    </li>
+    <div class="social-links">
+      <h3>Connect with me:</h3>
+     <li> <a href="https://www.instagram.com/itz__kushal_gupta?igsh=bjVsb2lidG52emVl" target="_blank">Instagram</a></li>
+      <li><a href="https://www.facebook.com/share/17HmiyRGVN/" target="_blank">Facebook</a></li>
+      <li><a href="http://t.me/k_ush_al_78085" target="_blank">Telegram</a></li>
+    </div>
+    </ul>
+  </main>
+  </div>
+
+  <footer>
+    &copy; 2025 Kushal Kumar. All rights reserved.
+    <h3> @privacy | tearm policy</h3>
+  </footer>
+
+</body>
+</html>
